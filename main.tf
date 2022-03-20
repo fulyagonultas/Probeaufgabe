@@ -18,7 +18,7 @@ terraform {
 
 provider "aws" {
   profile = "default"
-  region  = "my_region"
+  region  = "var.my_region"
 }
 
 resource "aws_vpc" "vpc" {
